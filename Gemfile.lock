@@ -101,7 +101,6 @@ GEM
       irb (~> 1.10)
       reline (>= 0.3.8)
     drb (2.2.1)
-    error_highlight (0.7.0)
     erubi (1.13.1)
     globalid (1.2.1)
       activesupport (>= 6.1)
@@ -132,7 +131,6 @@ GEM
     marcel (1.0.4)
     matrix (0.4.2)
     mini_mime (1.1.5)
-    mini_portile2 (2.8.8)
     minitest (5.25.4)
     msgpack (1.7.5)
     net-imap (0.5.5)
@@ -145,8 +143,7 @@ GEM
     net-smtp (0.5.0)
       net-protocol
     nio4r (2.7.4)
-    nokogiri (1.18.1)
-      mini_portile2 (~> 2.8.2)
+    nokogiri (1.18.1-x86_64-linux-gnu)
       racc (~> 1.4)
     parallel (1.26.3)
     parser (3.3.6.0)
@@ -286,7 +283,6 @@ DEPENDENCIES
   brakeman
   capybara
   debug
-  error_highlight (>= 0.4.0)
   importmap-rails
   jbuilder
   pg (~> 1.1)
